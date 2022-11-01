@@ -6,7 +6,6 @@ import java.nio.file.FileSystemAlreadyExistsException;
 import java.util.Random;
 
 public class XmlReader {
-
     private static final Random rnd = new Random();
 
     public void read() throws IOException {
@@ -21,4 +20,6 @@ public class XmlReader {
                 throw new FileSystemAlreadyExistsException();
         }
     }
+
 }
+
